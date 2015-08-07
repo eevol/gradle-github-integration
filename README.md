@@ -10,3 +10,11 @@ Use fill out fields
 
 
 You can also set these properties as SYSTEM porpoerties for use in Jenkins
+
+### Usage
+
+ - task LIST
+ List all releases that can be downloaded
+
+ - task download -Pdownload=ID
+ Download Assets of releases (not source code) with ID
