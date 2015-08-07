@@ -18,9 +18,9 @@ plugins {
 
 // FILL OUT THIS FIELDS TO GIVE ACCESS TO REPO
 
-String defaultToken
-String defaultOrganization
-String defaultRepository
+String defaultToken // = 'YOUR GITHUB ACCESS TOKEN'
+String defaultOrganization // = 'REPO ORGANIZATION OR USER'
+String defaultRepository // = 'REPO TO ACCESS'
 
 
 task listReleases(type:GithubListReleasesTask) {
